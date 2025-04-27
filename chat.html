@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script     src="https://code.jquery.com/jquery-3.7.1.js" ></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정우민의 지능 채팅 서비스</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .chat-box { width: 400px; height: 400px; overflow-y: scroll; border: 1px solid #ddd; padding: 10px; }
+        .input-box { width: 400px; }
+    </style>
+</head>
+<body>
+
+<h1>정우민의 지능 채팅 서비스</h1>
+
+<input type="text" id="user-message" class="input-box" placeholder="Type a message" />
+<button onclick="sendMessage()">generate</button>
+<div class="chat-box" id="chat-box"></div>
+
+</body>
+</html>
